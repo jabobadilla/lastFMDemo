@@ -1,0 +1,6 @@
+module AKSideMenu {
+  umbrella header "AKSideMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

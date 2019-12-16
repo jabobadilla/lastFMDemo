@@ -1,0 +1,34 @@
+PODS:
+  - AKSideMenu (1.4.5)
+  - Alamofire (5.0.0-rc.3)
+  - IHProgressHUD (0.1.4)
+  - Kingfisher (5.12.0):
+    - Kingfisher/Core (= 5.12.0)
+  - Kingfisher/Core (5.12.0)
+  - ObjectMapper (3.5.1)
+
+DEPENDENCIES:
+  - AKSideMenu
+  - Alamofire (~> 5.0.0-beta.5)
+  - IHProgressHUD
+  - Kingfisher
+  - ObjectMapper (~> 3.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AKSideMenu
+    - Alamofire
+    - IHProgressHUD
+    - Kingfisher
+    - ObjectMapper
+
+SPEC CHECKSUMS:
+  AKSideMenu: 2880c44ee04a68f40be783c5cb997b2e0ee22401
+  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
+  IHProgressHUD: a01846bfbb581c761c79747c67b08387c3bdfae3
+  Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+
+PODFILE CHECKSUM: 6e7dbe00be84cc4e341ee740bf18bf2220df775c
+
+COCOAPODS: 1.5.3

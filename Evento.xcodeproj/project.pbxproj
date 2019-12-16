@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D1F921B826714FF531438F /* libPods-Evento.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BE53CDE995D6B82F11D508 /* libPods-Evento.a */; };
+		631B229A2299D1C100F4C74C /* LeftMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B22992299D1C100F4C74C /* LeftMenuVC.swift */; };
+		631B229C2299D23600F4C74C /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B229B2299D23600F4C74C /* RootVC.swift */; };
+		63F9F7152298A7C200196EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F9F7142298A7C200196EDE /* AppDelegate.swift */; };
+		63F9F71A2298A7C200196EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F9F7182298A7C200196EDE /* Main.storyboard */; };
+		63F9F71C2298A7C300196EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F9F71B2298A7C300196EDE /* Assets.xcassets */; };
+		63F9F71F2298A7C300196EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F9F71D2298A7C300196EDE /* LaunchScreen.storyboard */; };
+		F01C92D523A401440040A4E4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01C92D423A401440040A4E4 /* Image.swift */; };
+		F04D36BF23A73D0600725EF1 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D36BE23A73D0600725EF1 /* DetailVC.swift */; };
+		F04D36C223A73F9500725EF1 /* ArtistDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D36C123A73F9500725EF1 /* ArtistDetail.swift */; };
+		F04D36C423A73FC700725EF1 /* ArtistDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D36C323A73FC700725EF1 /* ArtistDetailData.swift */; };
+		F04D36C623A7405300725EF1 /* ArtistBio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D36C523A7405300725EF1 /* ArtistBio.swift */; };
+		F04D36C823A745C300725EF1 /* SimilarArtistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D36C723A745C300725EF1 /* SimilarArtistData.swift */; };
+		F04D36CA23A7463F00725EF1 /* SimilarArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D36C923A7463F00725EF1 /* SimilarArtist.swift */; };
+		F04D36CE23A74E2D00725EF1 /* TrackDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D36CD23A74E2D00725EF1 /* TrackDetail.swift */; };
+		F04D36D023A74EA300725EF1 /* TrackDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D36CF23A74EA300725EF1 /* TrackDetailData.swift */; };
+		F04D36D223A751F200725EF1 /* TrackAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D36D123A751F200725EF1 /* TrackAlbum.swift */; };
+		F04D36D423A7526C00725EF1 /* TrackTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D36D323A7526C00725EF1 /* TrackTag.swift */; };
+		F04D36D623A752C300725EF1 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D36D523A752C300725EF1 /* Tag.swift */; };
+		F04D36D823A7532400725EF1 /* TrackWiki.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D36D723A7532400725EF1 /* TrackWiki.swift */; };
+		F062B76623A6A3700024B6A3 /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062B76523A6A3700024B6A3 /* HomeTableCell.swift */; };
+		F062B76823A6A42B0024B6A3 /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062B76723A6A42A0024B6A3 /* HomeTableCell.swift */; };
+		F062B76A23A6AAAA0024B6A3 /* AlbumDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062B76923A6AAAA0024B6A3 /* AlbumDetail.swift */; };
+		F062B76D23A6AB1D0024B6A3 /* AlbumDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062B76C23A6AB1D0024B6A3 /* AlbumDetailData.swift */; };
+		F062B76F23A6AC160024B6A3 /* AlbumWiki.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062B76E23A6AC160024B6A3 /* AlbumWiki.swift */; };
+		F062B77123A6B0700024B6A3 /* AlbumTrackData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062B77023A6B0700024B6A3 /* AlbumTrackData.swift */; };
+		F062B77323A72D430024B6A3 /* AlbumTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062B77223A72D430024B6A3 /* AlbumTrack.swift */; };
+		F062B77523A730810024B6A3 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062B77423A730810024B6A3 /* DetailCell.swift */; };
+		F066012623A41F07000222BD /* IHProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F066012523A41F07000222BD /* IHProgressHUD.bundle */; };
+		F066012823A4256D000222BD /* ArtistSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066012723A4256D000222BD /* ArtistSearch.swift */; };
+		F066012A23A425A9000222BD /* ArtistResultsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066012923A425A9000222BD /* ArtistResultsData.swift */; };
+		F066012C23A43C95000222BD /* ArtistMatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066012B23A43C95000222BD /* ArtistMatches.swift */; };
+		F066012E23A43CEC000222BD /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066012D23A43CEC000222BD /* Artist.swift */; };
+		F066013023A45208000222BD /* HomeTableSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066012F23A45208000222BD /* HomeTableSectionHeader.swift */; };
+		F0E3F2A023A3C23E007006D3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E3F29F23A3C23E007006D3 /* HomeVC.swift */; };
+		F0E3F2A223A3C2B7007006D3 /* AlbumSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E3F2A123A3C2B7007006D3 /* AlbumSearch.swift */; };
+		F0E3F2A423A3CD7D007006D3 /* AlbumResultsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E3F2A323A3CD7D007006D3 /* AlbumResultsData.swift */; };
+		F0E3F2A623A3D087007006D3 /* AlbumMatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E3F2A523A3D087007006D3 /* AlbumMatches.swift */; };
+		F0E3F2A823A3D0B2007006D3 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E3F2A723A3D0B2007006D3 /* Album.swift */; };
+		F0F1F91323A574C100102D83 /* TableSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0F1F91223A574C100102D83 /* TableSectionHeader.xib */; };
+		F0F1F91523A58EE300102D83 /* TrackSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F1F91423A58EE300102D83 /* TrackSearch.swift */; };
+		F0F1F91723A5909900102D83 /* TrackResultsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F1F91623A5909900102D83 /* TrackResultsData.swift */; };
+		F0F1F91923A590E400102D83 /* TrackMatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F1F91823A590E400102D83 /* TrackMatches.swift */; };
+		F0F1F91B23A5912100102D83 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F1F91A23A5912100102D83 /* Track.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EDC1C76C654D1678B4A9621 /* Pods-Evento.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evento.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Evento/Pods-Evento.debug.xcconfig"; sourceTree = "<group>"; };
+		631B22992299D1C100F4C74C /* LeftMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuVC.swift; sourceTree = "<group>"; };
+		631B229B2299D23600F4C74C /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		63F9F7112298A7C200196EDE /* lastFMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lastFMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F9F7142298A7C200196EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63F9F7192298A7C200196EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63F9F71B2298A7C300196EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63F9F71E2298A7C300196EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63F9F7202298A7C300196EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BE53CDE995D6B82F11D508 /* libPods-Evento.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Evento.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD595A827071DF0935859A6B /* Pods-Evento.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evento.release.xcconfig"; path = "Target Support Files/Pods-Evento/Pods-Evento.release.xcconfig"; sourceTree = "<group>"; };
+		B1F5F801E097771E9A44F045 /* Pods-Evento.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evento.release.xcconfig"; path = "Pods/Target Support Files/Pods-Evento/Pods-Evento.release.xcconfig"; sourceTree = "<group>"; };
+		E028477D2BDEA69E7248B5E6 /* Pods-Evento.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evento.debug.xcconfig"; path = "Target Support Files/Pods-Evento/Pods-Evento.debug.xcconfig"; sourceTree = "<group>"; };
+		F01C92D423A401440040A4E4 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		F04D36BE23A73D0600725EF1 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		F04D36C123A73F9500725EF1 /* ArtistDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistDetail.swift; sourceTree = "<group>"; };
+		F04D36C323A73FC700725EF1 /* ArtistDetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistDetailData.swift; sourceTree = "<group>"; };
+		F04D36C523A7405300725EF1 /* ArtistBio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistBio.swift; sourceTree = "<group>"; };
+		F04D36C723A745C300725EF1 /* SimilarArtistData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimilarArtistData.swift; sourceTree = "<group>"; };
+		F04D36C923A7463F00725EF1 /* SimilarArtist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimilarArtist.swift; sourceTree = "<group>"; };
+		F04D36CD23A74E2D00725EF1 /* TrackDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackDetail.swift; sourceTree = "<group>"; };
+		F04D36CF23A74EA300725EF1 /* TrackDetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackDetailData.swift; sourceTree = "<group>"; };
+		F04D36D123A751F200725EF1 /* TrackAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackAlbum.swift; sourceTree = "<group>"; };
+		F04D36D323A7526C00725EF1 /* TrackTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackTag.swift; sourceTree = "<group>"; };
+		F04D36D523A752C300725EF1 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		F04D36D723A7532400725EF1 /* TrackWiki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackWiki.swift; sourceTree = "<group>"; };
+		F062B76523A6A3700024B6A3 /* HomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeTableCell.swift; path = Evento/Home/Cells/HomeTableCell.swift; sourceTree = "<group>"; };
+		F062B76723A6A42A0024B6A3 /* HomeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
+		F062B76923A6AAAA0024B6A3 /* AlbumDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetail.swift; sourceTree = "<group>"; };
+		F062B76C23A6AB1D0024B6A3 /* AlbumDetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetailData.swift; sourceTree = "<group>"; };
+		F062B76E23A6AC160024B6A3 /* AlbumWiki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumWiki.swift; sourceTree = "<group>"; };
+		F062B77023A6B0700024B6A3 /* AlbumTrackData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTrackData.swift; sourceTree = "<group>"; };
+		F062B77223A72D430024B6A3 /* AlbumTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTrack.swift; sourceTree = "<group>"; };
+		F062B77423A730810024B6A3 /* DetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		F066012523A41F07000222BD /* IHProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = IHProgressHUD.bundle; path = Pods/IHProgressHUD/IHProgressHUD/Classes/IHProgressHUD.bundle; sourceTree = "<group>"; };
+		F066012723A4256D000222BD /* ArtistSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistSearch.swift; sourceTree = "<group>"; };
+		F066012923A425A9000222BD /* ArtistResultsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistResultsData.swift; sourceTree = "<group>"; };
+		F066012B23A43C95000222BD /* ArtistMatches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistMatches.swift; sourceTree = "<group>"; };
+		F066012D23A43CEC000222BD /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		F066012F23A45208000222BD /* HomeTableSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableSectionHeader.swift; sourceTree = "<group>"; };
+		F0E3F29F23A3C23E007006D3 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = Evento/Home/HomeVC.swift; sourceTree = SOURCE_ROOT; };
+		F0E3F2A123A3C2B7007006D3 /* AlbumSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumSearch.swift; sourceTree = "<group>"; };
+		F0E3F2A323A3CD7D007006D3 /* AlbumResultsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumResultsData.swift; sourceTree = "<group>"; };
+		F0E3F2A523A3D087007006D3 /* AlbumMatches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumMatches.swift; sourceTree = "<group>"; };
+		F0E3F2A723A3D0B2007006D3 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		F0F1F91223A574C100102D83 /* TableSectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableSectionHeader.xib; sourceTree = "<group>"; };
+		F0F1F91423A58EE300102D83 /* TrackSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackSearch.swift; sourceTree = "<group>"; };
+		F0F1F91623A5909900102D83 /* TrackResultsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackResultsData.swift; sourceTree = "<group>"; };
+		F0F1F91823A590E400102D83 /* TrackMatches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackMatches.swift; sourceTree = "<group>"; };
+		F0F1F91A23A5912100102D83 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F9F70E2298A7C200196EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D1F921B826714FF531438F /* libPods-Evento.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19491EC852231FAE4E8E703C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81BE53CDE995D6B82F11D508 /* libPods-Evento.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		631B229F2299EB0200F4C74C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				631B22992299D1C100F4C74C /* LeftMenuVC.swift */,
+				631B229B2299D23600F4C74C /* RootVC.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		6357BBBB22A0D6F5000351C0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F016803623A6949700BAC48F /* Cells */,
+				F016803723A694A600BAC48F /* Mapping */,
+				F0E3F29F23A3C23E007006D3 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		63F9F7082298A7C200196EDE = {
+			isa = PBXGroup;
+			children = (
+				F062B76523A6A3700024B6A3 /* HomeTableCell.swift */,
+				F066012523A41F07000222BD /* IHProgressHUD.bundle */,
+				63F9F7132298A7C200196EDE /* Evento */,
+				63F9F7122298A7C200196EDE /* Products */,
+				E184B8948653F7B692CFE866 /* Pods */,
+				19491EC852231FAE4E8E703C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63F9F7122298A7C200196EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F9F7112298A7C200196EDE /* lastFMDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F9F7132298A7C200196EDE /* Evento */ = {
+			isa = PBXGroup;
+			children = (
+				63F9F7142298A7C200196EDE /* AppDelegate.swift */,
+				631B229F2299EB0200F4C74C /* Menu */,
+				6357BBBB22A0D6F5000351C0 /* Home */,
+				F016803123A68FFF00BAC48F /* Detail */,
+				63F9F7182298A7C200196EDE /* Main.storyboard */,
+				63F9F71B2298A7C300196EDE /* Assets.xcassets */,
+				63F9F71D2298A7C300196EDE /* LaunchScreen.storyboard */,
+				63F9F7202298A7C300196EDE /* Info.plist */,
+			);
+			path = Evento;
+			sourceTree = "<group>";
+		};
+		E184B8948653F7B692CFE866 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E028477D2BDEA69E7248B5E6 /* Pods-Evento.debug.xcconfig */,
+				AD595A827071DF0935859A6B /* Pods-Evento.release.xcconfig */,
+				1EDC1C76C654D1678B4A9621 /* Pods-Evento.debug.xcconfig */,
+				B1F5F801E097771E9A44F045 /* Pods-Evento.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F016803123A68FFF00BAC48F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F04D36B923A7391A00725EF1 /* Cell */,
+				F04D36BE23A73D0600725EF1 /* DetailVC.swift */,
+				F04D36CB23A74E0B00725EF1 /* Track */,
+				F04D36BB23A73AFB00725EF1 /* Artist */,
+				F04D36BA23A73AEA00725EF1 /* Album */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		F016803623A6949700BAC48F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F062B76723A6A42A0024B6A3 /* HomeTableCell.swift */,
+				F066012F23A45208000222BD /* HomeTableSectionHeader.swift */,
+				F0F1F91223A574C100102D83 /* TableSectionHeader.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F016803723A694A600BAC48F /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				F0E3F2A123A3C2B7007006D3 /* AlbumSearch.swift */,
+				F066012723A4256D000222BD /* ArtistSearch.swift */,
+				F0F1F91423A58EE300102D83 /* TrackSearch.swift */,
+				F0E3F2A323A3CD7D007006D3 /* AlbumResultsData.swift */,
+				F066012923A425A9000222BD /* ArtistResultsData.swift */,
+				F0F1F91623A5909900102D83 /* TrackResultsData.swift */,
+				F0E3F2A523A3D087007006D3 /* AlbumMatches.swift */,
+				F066012B23A43C95000222BD /* ArtistMatches.swift */,
+				F0F1F91823A590E400102D83 /* TrackMatches.swift */,
+				F0E3F2A723A3D0B2007006D3 /* Album.swift */,
+				F066012D23A43CEC000222BD /* Artist.swift */,
+				F0F1F91A23A5912100102D83 /* Track.swift */,
+				F01C92D423A401440040A4E4 /* Image.swift */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		F04D36B923A7391A00725EF1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F062B77423A730810024B6A3 /* DetailCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F04D36BA23A73AEA00725EF1 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				F062B76B23A6AAB10024B6A3 /* Mapping */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		F04D36BB23A73AFB00725EF1 /* Artist */ = {
+			isa = PBXGroup;
+			children = (
+				F04D36C023A73F8000725EF1 /* Mapping */,
+			);
+			path = Artist;
+			sourceTree = "<group>";
+		};
+		F04D36C023A73F8000725EF1 /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				F04D36C123A73F9500725EF1 /* ArtistDetail.swift */,
+				F04D36C323A73FC700725EF1 /* ArtistDetailData.swift */,
+				F04D36C723A745C300725EF1 /* SimilarArtistData.swift */,
+				F04D36C523A7405300725EF1 /* ArtistBio.swift */,
+				F04D36C923A7463F00725EF1 /* SimilarArtist.swift */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		F04D36CB23A74E0B00725EF1 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				F04D36CC23A74E1700725EF1 /* Mapping */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		F04D36CC23A74E1700725EF1 /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				F04D36CD23A74E2D00725EF1 /* TrackDetail.swift */,
+				F04D36CF23A74EA300725EF1 /* TrackDetailData.swift */,
+				F04D36D123A751F200725EF1 /* TrackAlbum.swift */,
+				F04D36D323A7526C00725EF1 /* TrackTag.swift */,
+				F04D36D523A752C300725EF1 /* Tag.swift */,
+				F04D36D723A7532400725EF1 /* TrackWiki.swift */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		F062B76B23A6AAB10024B6A3 /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				F062B76923A6AAAA0024B6A3 /* AlbumDetail.swift */,
+				F062B76C23A6AB1D0024B6A3 /* AlbumDetailData.swift */,
+				F062B77023A6B0700024B6A3 /* AlbumTrackData.swift */,
+				F062B77223A72D430024B6A3 /* AlbumTrack.swift */,
+				F062B76E23A6AC160024B6A3 /* AlbumWiki.swift */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F9F7102298A7C200196EDE /* Evento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F9F7232298A7C300196EDE /* Build configuration list for PBXNativeTarget "Evento" */;
+			buildPhases = (
+				FDB765969EF2C3D9D77D7387 /* [CP] Check Pods Manifest.lock */,
+				63F9F70D2298A7C200196EDE /* Sources */,
+				63F9F70E2298A7C200196EDE /* Frameworks */,
+				63F9F70F2298A7C200196EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Evento;
+			productName = Evento;
+			productReference = 63F9F7112298A7C200196EDE /* lastFMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F9F7092298A7C200196EDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = pretechmobile;
+				TargetAttributes = {
+					63F9F7102298A7C200196EDE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 63F9F70C2298A7C200196EDE /* Build configuration list for PBXProject "Evento" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63F9F7082298A7C200196EDE;
+			productRefGroup = 63F9F7122298A7C200196EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F9F7102298A7C200196EDE /* Evento */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F9F70F2298A7C200196EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F066012623A41F07000222BD /* IHProgressHUD.bundle in Resources */,
+				63F9F71F2298A7C300196EDE /* LaunchScreen.storyboard in Resources */,
+				F0F1F91323A574C100102D83 /* TableSectionHeader.xib in Resources */,
+				63F9F71C2298A7C300196EDE /* Assets.xcassets in Resources */,
+				63F9F71A2298A7C200196EDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FDB765969EF2C3D9D77D7387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Evento-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F9F70D2298A7C200196EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F062B76623A6A3700024B6A3 /* HomeTableCell.swift in Sources */,
+				F04D36CA23A7463F00725EF1 /* SimilarArtist.swift in Sources */,
+				631B229C2299D23600F4C74C /* RootVC.swift in Sources */,
+				F04D36C423A73FC700725EF1 /* ArtistDetailData.swift in Sources */,
+				F04D36D223A751F200725EF1 /* TrackAlbum.swift in Sources */,
+				F04D36D423A7526C00725EF1 /* TrackTag.swift in Sources */,
+				F04D36D623A752C300725EF1 /* Tag.swift in Sources */,
+				F0E3F2A023A3C23E007006D3 /* HomeVC.swift in Sources */,
+				F066012A23A425A9000222BD /* ArtistResultsData.swift in Sources */,
+				F0E3F2A623A3D087007006D3 /* AlbumMatches.swift in Sources */,
+				F062B76D23A6AB1D0024B6A3 /* AlbumDetailData.swift in Sources */,
+				F062B77123A6B0700024B6A3 /* AlbumTrackData.swift in Sources */,
+				F062B77523A730810024B6A3 /* DetailCell.swift in Sources */,
+				F04D36C623A7405300725EF1 /* ArtistBio.swift in Sources */,
+				F04D36BF23A73D0600725EF1 /* DetailVC.swift in Sources */,
+				F04D36C223A73F9500725EF1 /* ArtistDetail.swift in Sources */,
+				F0E3F2A823A3D0B2007006D3 /* Album.swift in Sources */,
+				F04D36C823A745C300725EF1 /* SimilarArtistData.swift in Sources */,
+				F0E3F2A223A3C2B7007006D3 /* AlbumSearch.swift in Sources */,
+				F0F1F91723A5909900102D83 /* TrackResultsData.swift in Sources */,
+				63F9F7152298A7C200196EDE /* AppDelegate.swift in Sources */,
+				F04D36CE23A74E2D00725EF1 /* TrackDetail.swift in Sources */,
+				F062B77323A72D430024B6A3 /* AlbumTrack.swift in Sources */,
+				F01C92D523A401440040A4E4 /* Image.swift in Sources */,
+				F066012E23A43CEC000222BD /* Artist.swift in Sources */,
+				F066012C23A43C95000222BD /* ArtistMatches.swift in Sources */,
+				F066013023A45208000222BD /* HomeTableSectionHeader.swift in Sources */,
+				F0E3F2A423A3CD7D007006D3 /* AlbumResultsData.swift in Sources */,
+				631B229A2299D1C100F4C74C /* LeftMenuVC.swift in Sources */,
+				F062B76823A6A42B0024B6A3 /* HomeTableCell.swift in Sources */,
+				F062B76F23A6AC160024B6A3 /* AlbumWiki.swift in Sources */,
+				F04D36D823A7532400725EF1 /* TrackWiki.swift in Sources */,
+				F0F1F91923A590E400102D83 /* TrackMatches.swift in Sources */,
+				F066012823A4256D000222BD /* ArtistSearch.swift in Sources */,
+				F062B76A23A6AAAA0024B6A3 /* AlbumDetail.swift in Sources */,
+				F04D36D023A74EA300725EF1 /* TrackDetailData.swift in Sources */,
+				F0F1F91523A58EE300102D83 /* TrackSearch.swift in Sources */,
+				F0F1F91B23A5912100102D83 /* Track.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63F9F7182298A7C200196EDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F9F7192298A7C200196EDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63F9F71D2298A7C300196EDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F9F71E2298A7C300196EDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63F9F7212298A7C300196EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E028477D2BDEA69E7248B5E6 /* Pods-Evento.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63F9F7222298A7C300196EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD595A827071DF0935859A6B /* Pods-Evento.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63F9F7242298A7C300196EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E028477D2BDEA69E7248B5E6 /* Pods-Evento.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJEP893K4C;
+				INFOPLIST_FILE = Evento/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pretechmobile.lastFM-Demo";
+				PRODUCT_NAME = lastFMDemo;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63F9F7252298A7C300196EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD595A827071DF0935859A6B /* Pods-Evento.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJEP893K4C;
+				INFOPLIST_FILE = Evento/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pretechmobile.lastFM-Demo";
+				PRODUCT_NAME = lastFMDemo;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F9F70C2298A7C200196EDE /* Build configuration list for PBXProject "Evento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F9F7212298A7C300196EDE /* Debug */,
+				63F9F7222298A7C300196EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F9F7232298A7C300196EDE /* Build configuration list for PBXNativeTarget "Evento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F9F7242298A7C300196EDE /* Debug */,
+				63F9F7252298A7C300196EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63F9F7092298A7C200196EDE /* Project object */;
+}
